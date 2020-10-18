@@ -46,7 +46,7 @@ p {
   margin: 0;
 }
 
-.profile-picture img {
+.profile-picture {
   border-radius: 50%;
   height: 150px;
   width: 150px;
@@ -124,7 +124,7 @@ body::before {
   width: 100%;
   z-index: -9999;
   background-color: var(--white);
-  background-image: url(../images/hero.jpg);
+  /* background-image: url(../images/hero.jpg); */
   background-repeat: no-repeat;
   background-position: left top;
   opacity: 0.4;
@@ -244,29 +244,41 @@ body::before {
 
 /* work images */
 .run-buddy {
-  background-image: url("../images/run-buddy.jpg");
+  background-image: url("./assets/runbuddy.JPG");
 }
 
 .horiseon {
-  background-image: url("../images/horiseon.jpg");
+  background-image: url("./assets/horiseon.JPG");
+}
+
+.minnow {
+  background-image: url("./assets/minnow.png");
+}
+
+.project-gemini {
+  background-image: url("./assets/project-gemini.PNG");
+}
+
+.budget-tracker {
+  background-image: url("./assets/budget-tracker.JPG");
 }
 
 /* end work images*/
 
 .phone::before {
-  content: url("../images/phone.jpg");
+  content: url("./assets/phone.jpg");
 }
 
 .email::before {
-  content: url("../images/email.jpg")
+  content: url("./assets/email.jpg")
 }
 
 .github::before {
-  content: url("../images/github.jpg");
+  content: url("./assets/github.jpg");
 }
 
 .linkedin::before {
-  content: url("//assets/images/link.jpg");
+  content: url("./assets/link.jpg");
 }
 
 /* footer */

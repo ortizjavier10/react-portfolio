@@ -1,17 +1,18 @@
-import React from 'react';
+import React, {useState } from 'react';
 // import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 
 function App() {
   const tabs = ['About', 'Contact', 'Portfolio', 'Resume'];
-  const [currentPage, handlePageChange] = useState('About');
+  const [currentTab, setCurrentTab] = useState(tabs[0]);
   const renderPage = () => {
-    switch(currentPage) {
+    switch(currentTab) {
       case 'About': return <About />;
       case 'Contact': return <Contact />;
       case 'Portfolio': return <Portfolio />;
@@ -21,11 +22,12 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <Nav tabs={tabs} currentPage={currentPage} handlePageChange={handlePageChange} />
+    <div>
+      <Nav tabs={tabs} currentTab={currentTab} setCurrentTab={setCurrentTab} />
       <main>
         {renderPage()}
       </main>
+    <Footer />
     </div>
   );
 }
