@@ -10,7 +10,7 @@ This is my react developer portfolio. Please visit the site below, feel free to 
 
 ## Link
 Checkout out my site!
-https://ortizjavier10.github.io/react-portfolio/.
+https://ortizjavier10.github.io/react-portfolio/
 
 
 ## Screenshot
