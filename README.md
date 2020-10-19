@@ -13,7 +13,7 @@ Checkout out my site!
 
 
 ## Screenshot
-![screenshot](https://drive.google.com/file/d/1RBLW3AbtBn-jSPQI6bnft_kyL2bFuY8P/view?usp=sharing)
+<img src="./src/assets/developer portfolio react.JPG" >
 
 
 .
