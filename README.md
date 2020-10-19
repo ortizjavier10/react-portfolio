@@ -13,7 +13,8 @@ Checkout out my site!
 
 
 ## Screenshot
-<img src="https://drive.google.com/file/d/1RBLW3AbtBn-jSPQI6bnft_kyL2bFuY8P/view?usp=sharing" >
+![screenshot](https://drive.google.com/file/d/1RBLW3AbtBn-jSPQI6bnft_kyL2bFuY8P/view?usp=sharing)
+
 
 .
 
