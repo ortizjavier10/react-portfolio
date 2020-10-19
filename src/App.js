@@ -9,8 +9,8 @@ import Footer from './components/Footer';
 
 
 function App() {
-  const tabs = ['About', 'Contact', 'Portfolio', 'Resume'];
-  const [currentTab, setCurrentTab] = useState(tabs[0]);
+  // const tabs = ['About', 'Contact', 'Portfolio', 'Resume'];
+  const [currentTab, setCurrentTab] = useState('About');
   const renderPage = () => {
     switch(currentTab) {
       case 'About': return <About />;
@@ -22,10 +22,10 @@ function App() {
   }
 
   return (
-    <div>
-      <Nav tabs={tabs} currentTab={currentTab} setCurrentTab={setCurrentTab} />
-      <main>
-        {renderPage()}
+    <div className="..">
+      <Nav currentTab={currentTab} setCurrentTab={setCurrentTab}></Nav>
+      <div>{renderPage(currentTab)}</div>
+      <main> 
       </main>
     <Footer />
     </div>

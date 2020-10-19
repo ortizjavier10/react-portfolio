@@ -50,29 +50,31 @@ p {
   border-radius: 50%;
   height: 150px;
   width: 150px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   text-align: right;
 }
 
 header {
-  padding: 20px 50px;
+  padding: 20px 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-color: var(--light);
+  /* background-color: var(--light); */
+  /* background-color: rgb(31, 55, 71); */
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   
 }
 
 header h1 {
-  color: var(--tertiary);
-  background-color: var(--secondary);
-  padding: 5px 1% 5px 6%;
+  color: white;
+  /* background-color: var(--secondary); */
+  padding: 5px 10px 5px 10px;
   margin: 0;
   font-size: 4vw;
   line-height: 1;
@@ -266,19 +268,26 @@ body::before {
 /* end work images*/
 
 .phone::before {
-  content: url("./assets/phone.jpg");
+  content: url("./assets/phone.svg");
 }
 
 .email::before {
-  content: url("./assets/email.jpg")
+  content: url("./assets/email.svg")
 }
 
 .github::before {
-  content: url("./assets/github.jpg");
+  content: url("./assets/github.svg");
 }
 
 .linkedin::before {
-  content: url("./assets/link.jpg");
+  content: url("./assets/link.svg");
+}
+
+/* contact form */
+.form-wrapper {
+  text-align: center;
+  font-size: xx-large;
+
 }
 
 /* footer */

@@ -1,24 +1,27 @@
 import React from "react";
 // import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Nav() {
-    // const {
-    //     categories = [],
-    //     setCurrentCategory,
-    //     contactSelected,
-    //     currentCategory,
-    //     setContactSelected,
-    //   } = props;
+function Nav(props) {
+    const tabs = ['About', 'Contact', 'Portfolio', 'Resume' ]
+  
     return (
         <header>
-            <h1>Javier Ortiz</h1>
-        
+            <li>
+                    <h1>Javier</h1>
+                </li>
             <nav>
-                <a href="#about">About Me</a>
-                <a href="#contact">Contact</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#resume">Resume</a>
-      
+                {tabs.map(tab => (
+                    <li key={tab}>
+                        <a
+                        href={'#' + tab}
+                        onClick={() => props.setCurrentTab(tab)}
+                        className=".."
+                        >
+                            {tab}
+                        </a>
+                    </li>
+                ))}
+                
             </nav>
         </header>
     )

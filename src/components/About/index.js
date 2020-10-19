@@ -5,9 +5,8 @@ function About() {
         <section class="page-section" id="about">
       <h2>About Me</h2>
       <div>
-      <img class="profile-picture" src={require("../../assets/javier.jpg")} />
-      </div>
-      <div>
+      <img class="profile-picture" src={require("../../assets/javier.jpg")} alt="Javier Ortiz wearing a suit" />
+     
         <p>
         My name is Javier Ortiz, I'm 30, and I'm a Full-Stack Web Developer. 10 years of IT experience. 
         Currently work as a Sr. Systems Admin for Airborne Maintenance and Engineering Services.
