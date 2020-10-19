@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.34801c72.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.39811bcf.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.39811bcf.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/js/2.489c5252.chunk.js": "/react-portfolio/static/js/2.489c5252.chunk.js",
+    "static/js/2.489c5252.chunk.js.map": "/react-portfolio/static/js/2.489c5252.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.ca0118ec4e80204e3f0ee8faadc31209.js": "/react-portfolio/precache-manifest.ca0118ec4e80204e3f0ee8faadc31209.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.34801c72.chunk.css.map": "/react-portfolio/static/css/main.34801c72.chunk.css.map",
+    "static/js/2.489c5252.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.489c5252.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react-portfolio/static/media/twitter.a57ea219.svg",
+    "static/media/javier.jpg": "/react-portfolio/static/media/javier.784f200c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213b1880.js",
+    "static/js/2.489c5252.chunk.js",
+    "static/css/main.34801c72.chunk.css",
+    "static/js/main.39811bcf.chunk.js"
+  ]
+}
